@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HomeCheck.Models.OS_Asbestos>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.asbestos)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.asbestos)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.asbestosID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.asbestosID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.asbestosID })
+        </td>
+    </tr>
+}
+
+</table>

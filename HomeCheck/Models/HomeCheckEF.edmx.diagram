@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5bca34b262634c389eab536af3015301" Name="Diagram1">
+        <EntityTypeShape EntityType="HomeCheckModel.C__MigrationHistory" PointX="7.75" PointY="7.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.acMaster" PointX="6" PointY="27" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.AspNetRole" PointX="5.75" PointY="3.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.AspNetUserClaim" PointX="10.25" PointY="1.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.AspNetUserLogin" PointX="10.25" PointY="4.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.AspNetUser" PointX="8" PointY="2.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.cityMaster" PointX="8" PointY="13.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.electricalMaster" PointX="3" PointY="21.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.exteriorMaster" PointX="3" PointY="39.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.fireplaceMaster" PointX="6" PointY="60" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.heatingSystemMaster" PointX="9" PointY="31.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.inspectionMaster" PointX="0.75" PointY="68.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.interiorMaster" PointX="12" PointY="31.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AcDistribution" PointX="3.75" PointY="15.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AcOperation" PointX="3.75" PointY="12.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AcType" PointX="3.75" PointY="48.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AdditionalBuildings" PointX="0.75" PointY="20" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Alarm" PointX="0.75" PointY="40.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AluminiumWiring" PointX="0.75" PointY="38.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_ApproximateAge" PointX="3.75" PointY="18.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Asbestos" PointX="6.75" PointY="24.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AtticAccess" PointX="9.75" PointY="21.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AtticOpenWire" PointX="0.75" PointY="31.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_AtticVentilation" PointX="3.75" PointY="65.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Balconies" PointX="0.75" PointY="98.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Basement" PointX="0.75" PointY="22.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_BasementSeepage" PointX="9.75" PointY="24.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_buildingType" PointX="1.5" PointY="58.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_CeilingFraming" PointX="0.75" PointY="25.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_ChimneyComposition" PointX="3.75" PointY="4.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Condition" PointX="0.75" PointY="34" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Decks" PointX="0.75" PointY="0.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_DistributionSystem" PointX="6.75" PointY="21.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_DoorOpeners" PointX="9.75" PointY="19.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Doors" PointX="0.75" PointY="100.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_DrainVent" PointX="3.75" PointY="55.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Driveway" PointX="0.75" PointY="102.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_DrivewayCondition" PointX="0.75" PointY="105.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_eaves" PointX="0.75" PointY="107.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_ExteriorPaint" PointX="0.75" PointY="109.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FilterSize" PointX="3.75" PointY="50.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FireDoor" PointX="9.75" PointY="26.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FireplaceDamper" PointX="3.75" PointY="82.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Flashing" PointX="3.75" PointY="68.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FloorFraming" PointX="0.75" PointY="17.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FloorSupport" PointX="0.75" PointY="14.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Foundation" PointX="0.75" PointY="12" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_FuelAndSource" PointX="6.75" PointY="19.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_GarageDoors" PointX="9.75" PointY="28.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Grading" PointX="0.75" PointY="112.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Ground" PointX="0.75" PointY="28.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_HeatingSystemType" PointX="6.75" PointY="47.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_HomeStatus" PointX="1.5" PointY="56.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_HotWaterSystem" PointX="3.75" PointY="53.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InsulationAttic" PointX="9.75" PointY="40.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InsulationBasement" PointX="9.75" PointY="42.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InsulationWalls" PointX="9.75" PointY="44.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InteriorDoors" PointX="9.75" PointY="47.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InteriorFloors" PointX="9.75" PointY="49.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InteriorWallsCeilings" PointX="9.75" PointY="51.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_InteriorWindows" PointX="9.75" PointY="54.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_MainPanelLocation" PointX="0.75" PointY="44.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_MethodOfInspection" PointX="10.375" PointY="7.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_NoOfLayers" PointX="3.75" PointY="70.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_OilTank" PointX="6.75" PointY="49.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_OpenSpliceBoxes" PointX="0.75" PointY="76.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Operation" PointX="6.75" PointY="52.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_OverloadProtection" PointX="0.75" PointY="79" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_PanelFeed" PointX="0.75" PointY="81.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_PanelLabel" PointX="0.75" PointY="83.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_PresentAtInspection" PointX="1.5" PointY="61.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_RecommendService" PointX="6.75" PointY="54.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_ReversingSafety" PointX="9.75" PointY="56.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_RoofDrainage" PointX="3.75" PointY="72.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_RoofFraming" PointX="0.75" PointY="9.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_RoofingMaterial" PointX="3.75" PointY="75.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_SeePage" PointX="6.75" PointY="56.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_ServiceEntry" PointX="0.75" PointY="86" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Siding" PointX="0.75" PointY="114.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_SkyLights" PointX="3.75" PointY="77.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_SmokeDetectors" PointX="0.75" PointY="88.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_soilCondition" PointX="1.5" PointY="63.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Steps" PointX="0.75" PointY="116.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_SubPanelLocation" PointX="0.75" PointY="90.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_TarPaper" PointX="3.75" PointY="79.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Temperature" PointX="1.5" PointY="54.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Termites" PointX="0.75" PointY="6.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_TnPPipping" PointX="3.75" PointY="6.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_VaporBarriers" PointX="9.75" PointY="58.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Vegetation" PointX="0.75" PointY="119.25" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_VoltageRating" PointX="0.75" PointY="93" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_walks" PointX="0.75" PointY="121.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WallFraming" PointX="0.75" PointY="4" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Waste" PointX="3.75" PointY="9.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WaterMain" PointX="3.75" PointY="58.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WaterMainDiameter" PointX="3.75" PointY="60.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WaterSupplyPiping" PointX="3.75" PointY="62.75" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_Weather" PointX="1.5" PointY="65.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WireType" PointX="0.75" PointY="95.375" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.OS_WoodStove" PointX="3.75" PointY="85.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.plumbingMaster" PointX="6" PointY="32.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.propertyMaster" PointX="0.75" PointY="47" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.roofMaster" PointX="6" PointY="39.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.stateMaster" PointX="5.75" PointY="9.875" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.statusMaster" PointX="1.5" PointY="73.625" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.structureMaster" PointX="3" PointY="32.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.sysdiagram" PointX="2.75" PointY="1.5" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCheckModel.userMaster" PointX="10.25" PointY="11.125" Width="1.5" IsExpanded="true" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_AcDistribution" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_AcOperation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_AcType" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_ApproximateAge" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_OS_FilterSize" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_acMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_cityMaster_stateMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_userMaster_cityMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_Alarm" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_AluminiumWiring" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_AtticOpenWire" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_Ground" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_MainPanelLocation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_OpenSpliceBoxes" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_OverloadProtection" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_PanelFeed" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_PanelLabel" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_ServiceEntry" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_SmokeDetectors" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_SubPanelLocation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_VoltageRating" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_OS_WireType" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_electricalMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Balconies" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Decks" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Doors" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Driveway" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_DrivewayCondition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_eaves" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_ExteriorPaint" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Grading" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Siding" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Steps" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_Vegetation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_OS_walks" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_exteriorMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_fireplaceMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_fireplaceMaster_OS_FireplaceDamper" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_fireplaceMaster_OS_WoodStove" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_fireplaceMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_ApproximateAge" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_Asbestos" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_DistributionSystem" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_FuelAndSource" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_HeatingSystemType" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_OilTank" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_Operation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_RecommendService" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_SeePage" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_OS_TnPPipping" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_heatingSystemMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_inspectionMaster_statusMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_inspectionMaster_statusMaster1" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_inspectionMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_AtticAccess" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_BasementSeepage" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_DoorOpeners" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_FireDoor" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_GarageDoors" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InsulationAttic" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InsulationBasement" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InsulationWalls" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InteriorDoors" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InteriorFloors" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InteriorWallsCeilings" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_InteriorWindows" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_ReversingSafety" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_OS_VaporBarriers" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_interiorMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_AdditionalBuildings" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_ApproximateAge" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_AtticVentilation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_Basement" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_buildingType" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_CeilingFraming" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_ChimneyComposition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_Condition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_DrainVent" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_Flashing" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_FloorFraming" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_floorSupport" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_Foundation" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_HomeStatus" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_HotWaterSystem" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_MethodOfInspection" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_NoOfLayers" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_PresentAtInspection" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_RoofDrainage" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_RoofFraming" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_RoofingMaterial" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_SkyLights" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_SoilCondition" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_OS_TarPaper" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_Temperature" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_Termites" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_TnPPipping" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_OS_WallFraming" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_Waste" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_WaterMain" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_WaterMainDiameter" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_OS_WaterSupplyPiping" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_propertyMaster_OS_Weather" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_plumbingMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_roofMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_structureMaster_propertyMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.FK_userMaster_stateMaster" />
+        <AssociationConnector ManuallyRouted="false" Association="HomeCheckModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

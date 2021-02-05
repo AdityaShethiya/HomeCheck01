@@ -1,0 +1,27 @@
+﻿@model HomeCheck.Models.OS_AcOperation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OS_AcOperation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.acOperation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.acOperation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.acOperationID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

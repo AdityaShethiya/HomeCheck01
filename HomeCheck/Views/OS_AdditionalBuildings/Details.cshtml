@@ -1,0 +1,27 @@
+﻿@model HomeCheck.Models.OS_AdditionalBuildings
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OS_AdditionalBuildings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.additionalBuilding)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.additionalBuilding)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.additionalBuildingID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

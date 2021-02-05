@@ -1,0 +1,27 @@
+﻿@model HomeCheck.Models.OS_Asbestos
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OS_Asbestos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.asbestos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.asbestos)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.asbestosID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

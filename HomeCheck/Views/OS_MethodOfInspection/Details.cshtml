@@ -1,0 +1,27 @@
+﻿@model HomeCheck.Models.OS_MethodOfInspection
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Option Set for Method of Inspection</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.methodOfInspection)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.methodOfInspection)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.methodOfInspectionID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
